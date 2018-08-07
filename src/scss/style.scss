@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap";
+@import "fonts";
+html,body{
+  height: 100%;
+  font-family: 'Open sans';
+  font-size: 16px;
+}
+body{
+  background: aliceblue;
+  h1{
+    font-family: 'Open sans';
+    color: blue;
+    font-weight: 600;
+    font-size: 2em;
+    margin: .5em 1rem;
+  }
+}
+.home{
+  width: 200px;
+  height: 200px;
+  background: url('../img/mushrooms-martin-pfister-11.jpg') no-repeat;
+  background-size: cover;
+}
+.folder{
+  width: 200px;
+  height: 200px;
+  background: url('../img/svg/bb8_1.svg') no-repeat;
+  background-size: cover;
+}
